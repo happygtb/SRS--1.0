@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>用户登录</title>
+<link href="css/blue.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<style type="text/css">
+	html, body {
+		font-family: 'Lato', 微软雅黑;
+		font-size: 100%;
+		background: #fff;
+	}
+	body {
+		padding-top: 70px;
+	}
+	td{
+		padding-bottom:10px;
+		text-align:left;
+	}
+	.form-control{
+		margin-top:0px;
+	}
+	.input-group{
+		width:100%;
+	}
+	.glyphicon{
+		top:0;
+	}
+</style>
+</head>
+<body>
+<div class="container-fluid" style="padding-left: 0;">
+		<div class="row-fluid">
+			<div class="col-md-2 col-lg-2"></div>
+			<div class="col-xs-12 col-md-8 col-lg-8">
+				<h2 align="center">用户登录</h2>
+				<hr />
+				<form name="myForm" method="post" action="LoginServlet">
+					<table align="center">
+						<tr>
+							<td>
+								<div class="input-group">
+									
+									<input type="text" name="username" id="username" class="form-control" placeholder="请输入学号" size="40" />
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="input-group">
+									
+									<input type="password" name="password" id="password" placeholder=" 请输入密码" class="form-control" size="40" />
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><span>
+								<select name="role" id="role"
+									class="selector form-control" style="width:25em;">
+									<option value="1">学生</option>
+									<option value="2">教师</option>
+									<option value="3">管理员</option>
+								</select></span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<span style="float:left;"><input type="checkbox" id="auto" name="check" value="on">&emsp;记住密码</span>
+								<span style="float:right;"><a href="">忘记密码</a></span>
+							</td>
+						</tr>
+						<tr>
+							<td><button type="button" class="btn btn-block btn-primary" onclick="sub();">登录</button></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div class="col-md-2 col-lg-2"></div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
+<script src="js/icheck.js"></script>
+
+</html>

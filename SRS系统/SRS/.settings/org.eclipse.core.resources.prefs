@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/model/EnrollmentStatus.java=UTF-8
+encoding//src/mysqlDao/CourseImpl.java=UTF-8
+encoding//src/mysqlDao/ProfessorImpl.java=UTF-8
+encoding//src/mysqlDao/ScheduleOfClassesImpl.java=UTF-8
+encoding//src/mysqlDao/SectionImpl.java=UTF-8
+encoding//src/mysqlDao/StudentImpl.java=UTF-8
+encoding//src/mysqlDao/TranscriptEntryImpl.java=UTF-8
+encoding//src/service/CourseService.java=UTF-8
+encoding//src/sqliteDao/CourseImpl.java=UTF-8
+encoding//src/sqliteDao/ScheduleOfClassesImpl.java=UTF-8
+encoding//src/sqliteDao/SectionImpl.java=UTF-8
+encoding//src/sqliteDao/StudentImpl.java=UTF-8
